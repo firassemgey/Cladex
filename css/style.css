@@ -1749,9 +1749,19 @@ select:focus {
     line-height: 104px;
     transition: all 0.7s ease-in-out 0s;
 }
+.single-highlight-box .icon-holder svg,span:before {
+    display: block;
+    fill: #b3b3b3;
+    transition: all 0.7s ease-in-out 0s;
+}
+
 .single-highlight-box:hover .icon-holder span:before{
     color: #ffffff;
 }
+.single-highlight-box:hover .icon-holder svg,span:before{
+    fill: #ffffff;
+}
+
 .single-highlight-box .inner-content{
     position: relative;
     display: block;
@@ -1780,7 +1790,7 @@ select:focus {
     color: #27282c;
 }
 .single-highlight-box:hover .inner-content a{
-    color: #1964ae;    
+    color: #1964ae;
 }
 
 
